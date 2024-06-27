@@ -16,7 +16,15 @@
 
     </header>
 
-    <main>
+    <main class="container mt-8 mx-auto">
+
+        <section>
+            <div class="bg-gray-100 m-4 p-4 rounded-full">
+                <input id="search-field" type="text" placeholder="Search..." class="input input-bordered w-full max-w-xs" />
+                <button onclick="handleSearch()" class="btn btn-accent">Search</button>
+            </div>
+        </section>
+        <!-- Search Result  -->
         <section>
             <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
